@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DataLayer"
+      id="019de299-2dc9-401b-8862-cbdd563ac6d6"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DataLayer"
+      id="019de299-2dc9-401b-8862-cbdd563ac6d6"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

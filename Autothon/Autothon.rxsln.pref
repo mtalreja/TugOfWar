@@ -1,0 +1,14 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}</string>
+      <string>e19dedf1-d33d-4b63-9d7c-3a159135c20f</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Autothon[Autothon[AccessLayer[]Recording1.rxrec[]]DataLayer[]]]&#xD;&#xA;Solution Autothon\Autothon&#xD;&#xA;Solution Autothon" />
+  <StartupProject value="{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}" />
+</Properties>

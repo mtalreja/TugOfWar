@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recording1.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\Mohit\Documents\Ranorex\RanorexStudio Projects\Autothon\Recording1.UserCode.cs|43|27|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="Recording1.UserCode.cs" />
+    <Element value="Recording1.rxrec" />
+    <Element value="Autothon.rxtst" />
+    <Element value="AccessLayer\Keywords.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Autothon.Recording1.TestComboBoxElems()" />
+    </Array>
+  </Properties>
+</Properties>

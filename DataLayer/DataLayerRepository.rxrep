@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="DataLayerRepository"
+id="7c461163-dd87-4a76-a0e8-d78003f7e9d7"
+rxversion="6.2">
+  <codegen
+  classname="DataLayerRepository"
+  namespace="DataLayer"/>
+  <rootfolder
+  name="Root"
+  id="244435e1-fbaf-47fa-82d4-9786d4f9c2fe"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

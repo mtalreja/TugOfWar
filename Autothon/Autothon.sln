@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 6.2
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35A49824-3FD5-4B6E-BADD-C8CA9E4FA496}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autothon", "Autothon.csproj", "{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{54EA8B76-FD90-434A-9AE0-B1FCA177E59A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}.Debug|x86.Build.0 = Debug|x86
+		{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}.Debug|x86.ActiveCfg = Debug|x86
+		{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}.Release|x86.Build.0 = Release|x86
+		{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}.Release|x86.ActiveCfg = Release|x86
+		{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}.Debug|x86.Build.0 = Debug|x86
+		{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}.Debug|x86.ActiveCfg = Debug|x86
+		{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}.Release|x86.Build.0 = Release|x86
+		{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}.Release|x86.ActiveCfg = Release|x86
+		{54EA8B76-FD90-434A-9AE0-B1FCA177E59A}.Debug|x86.Build.0 = Debug|x86
+		{54EA8B76-FD90-434A-9AE0-B1FCA177E59A}.Debug|x86.ActiveCfg = Debug|x86
+		{54EA8B76-FD90-434A-9AE0-B1FCA177E59A}.Release|x86.Build.0 = Release|x86
+		{54EA8B76-FD90-434A-9AE0-B1FCA177E59A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

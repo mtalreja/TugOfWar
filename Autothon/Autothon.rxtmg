@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Autothon"
+      id="68f01988-e14e-4a4b-9fd5-8bff6e1c0291"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Autothon"
+      id="68f01988-e14e-4a4b-9fd5-8bff6e1c0291"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

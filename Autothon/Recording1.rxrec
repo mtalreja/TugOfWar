@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="8eb2e0e2-3675-4ac6-afe8-a154144d2ac6"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Autothon"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		namespace="Autothon"
+		classname="Recording1"
+		methodname="TestComboBoxElems"
+		isexternaltestmethod="False"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="35705d99-42cb-4d62-b841-8fe59e379b59"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="AutothonRepository"
+	id="c9bd6cc7-826d-4a90-8f55-1fb109d5c3fa"
+	rxversion="6.2"
+	relativepath="AutothonRepository.rxrep">
+		<codegen
+		classname="AutothonRepository"
+		namespace="Autothon"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="7119c654-9643-4e03-a7fb-598f04e48455"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

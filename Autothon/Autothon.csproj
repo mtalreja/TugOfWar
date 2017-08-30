@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{14D40801-9CC8-4BD6-836B-8CE0E6E16B7B}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Autothon</RootNamespace>
+    <AssemblyName>Autothon</AssemblyName>
+    <RanorexVersion>6.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>16a0feeb-7907-4f20-ac5f-8b49d036b71b</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessLayer\Keywords.cs">
+      <id>9f7715b3-6052-4105-b9fc-46a18bc6a2af</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>da1152a6-f892-468f-99df-9d8a8ff20f0e</id>
+    </Compile>
+    <Compile Include="AutothonRepository.cs">
+      <BoundTo>16a0feeb-7907-4f20-ac5f-8b49d036b71b</BoundTo>
+      <DependentUpon>AutothonRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2d57107e-97ea-4d79-bffa-a32dd363ac83</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c18825ab-2b11-4113-963f-1fdc3775ecf1</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>56e5c434-69b2-48f1-bcb5-1ebf0ab80414</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a19f6e93-4fe6-4b44-badc-8a4dbf64beec</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>56e5c434-69b2-48f1-bcb5-1ebf0ab80414</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb59cd0f-a623-4f77-b8ed-efbbd4d67b68</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>8e5873d2-6728-49f1-bed4-bcc9d2a5b599</id>
+    </None>
+    <None Include="AutothonRepository.rximg">
+      <BoundTo>16a0feeb-7907-4f20-ac5f-8b49d036b71b</BoundTo>
+      <DependentUpon>AutothonRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>344d5be4-ed70-4aeb-9284-7172152397c1</id>
+    </None>
+    <None Include="AutothonRepository.rxrep">
+      <id>16a0feeb-7907-4f20-ac5f-8b49d036b71b</id>
+      <repoid>c9bd6cc7-826d-4a90-8f55-1fb109d5c3fa</repoid>
+      <reporootid>7119c654-9643-4e03-a7fb-598f04e48455</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>16a0feeb-7907-4f20-ac5f-8b49d036b71b</BoundTo>
+      <id>56e5c434-69b2-48f1-bcb5-1ebf0ab80414</id>
+      <recordtableid>8eb2e0e2-3675-4ac6-afe8-a154144d2ac6</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Autothon.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1f86cc2e-c973-43c8-83a8-04b8defa78ae</id>
+    </Content>
+    <Content Include="Autothon.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1020858d-96c2-42a6-809a-08b4065bba81</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{D9CB1729-989A-45F3-B1F1-3C4ADA4A3BEA}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AccessLayer">
+      <id>823e812a-06f7-4703-a421-fda35d2097e6</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
